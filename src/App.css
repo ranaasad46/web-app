@@ -353,6 +353,9 @@ a[type= "product"]{
 .border{
   border: 2px solid black !important;
 }
+.credentials-container{
+background-color: #eeeeee;
+}
 
 
 

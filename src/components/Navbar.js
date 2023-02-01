@@ -25,6 +25,9 @@ export default function Navbar(props) {
     <div>
       <div className="sticky">
         <nav className={`navbar navbar-expand-lg navbar-light bg-light py-3`}>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
           <div className="container-fluid">
             <div
               className="collapse navbar-collapse"
@@ -37,12 +40,12 @@ export default function Navbar(props) {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" type="submit" href="/">
+                  <Link className="nav-link" type="submit" to="/AboutUs" onClick={()=>window.scrollTo(0,0)}>
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item ">
-                  <Link className="nav-link" type="submit" to="/ContactUs">
+                  <Link className="nav-link" type="submit" to="/ContactUs" onClick={()=>window.scrollTo(0,0)}>
                     Contact Us
                   </Link>
                 </li>
@@ -64,11 +67,12 @@ export default function Navbar(props) {
               </ul>
               <ul className="navbar-nav mb-2 mb-lg-0 ml-2">
                 <li className="nav-item text-decor">
-                  <a
-                    href="/"
+                  <Link
+                    to="/SignIn"
                     className=" nav-link "
                     type="submit"
                     value="sign-in"
+                    onClick={()=>window.scrollTo(0,0)}
                   >
                     <svg className="svg-icon" viewBox="0 0 20 20">
                       <path
@@ -77,7 +81,7 @@ export default function Navbar(props) {
                       ></path>
                     </svg>
                     Sign In
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item text-decor">
                   <a

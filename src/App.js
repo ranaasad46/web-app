@@ -10,6 +10,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useState } from "react";
 import ProductPreview from "./components/ProductPreview";
 import ContactUs from "./components/ContactUs";
+import AboutUs from "./components/AboutUs";
+import SignIn from "./components/SignIn";
 
 function App() {
   const [category, setCategory] = useState("");
@@ -55,10 +57,11 @@ function App() {
               exact path='/ProductPreview' 
               element={<ProductPreview product = {selectedProduct} selectProduct={selectProduct} />}
             />
-            
+            <Route exact path = "/AboutUs" element = {<AboutUs/>}/> 
+            <Route exact path = "/SignIn" element = {<SignIn/>}/>
+          
           </Routes>
           <Footer />
-          {/* <ProductPreview/> */}
         </WishContextProvider>
       </CartContextProvider>
     </BrowserRouter>

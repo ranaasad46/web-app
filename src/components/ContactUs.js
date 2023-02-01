@@ -35,7 +35,7 @@ export default function ContactUs() {
               <div  className="d-flex align-items-center justify-content-center">
                 <div className="d-grid">
 
-                <div className="d-flex my-3">
+                <div className="d-flex my-3" style={{width:"118%"}}>
                   <div style={{ width: "42%" }}>
                     <input
                       placeholder="Name*"
@@ -50,7 +50,7 @@ export default function ContactUs() {
                   </div>
                 </div>
               <div className="my-4">
-                <input placeholder="Subject" style={{ width: "92%" }}></input>
+                <input placeholder="Subject" style={{ width: "100%" }}></input>
               </div>
               <div className="my-4">
                 <textarea
