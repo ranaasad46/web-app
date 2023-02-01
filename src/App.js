@@ -12,6 +12,7 @@ import ProductPreview from "./components/ProductPreview";
 import ContactUs from "./components/ContactUs";
 import AboutUs from "./components/AboutUs";
 import SignIn from "./components/SignIn";
+import SignUp from "./components/SignUp";
 
 function App() {
   const [category, setCategory] = useState("");
@@ -59,6 +60,7 @@ function App() {
             />
             <Route exact path = "/AboutUs" element = {<AboutUs/>}/> 
             <Route exact path = "/SignIn" element = {<SignIn/>}/>
+            <Route exact path = "/SignUp" element = {<SignUp/>}/>
           
           </Routes>
           <Footer />
