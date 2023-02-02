@@ -1,24 +1,38 @@
 {
   "files": {
-    "main.css": "/web-app/static/css/main.4894a1f5.css",
-    "main.js": "/web-app/static/js/main.f0bebd76.js",
+    "main.css": "/web-app/static/css/main.30373f0d.css",
+    "main.js": "/web-app/static/js/main.fac21e50.js",
     "static/js/787.c6006e9a.chunk.js": "/web-app/static/js/787.c6006e9a.chunk.js",
     "static/media/img3.jpg": "/web-app/static/media/img3.a72bb52690f835c02e98.jpg",
     "static/media/img2.webp": "/web-app/static/media/img2.26738ddbaef761ba343f.webp",
+    "static/media/leatherWallet.jpg": "/web-app/static/media/leatherWallet.62712d638a6e16433b1d.jpg",
     "static/media/img4.jpg": "/web-app/static/media/img4.164d45e3b99d13f155d1.jpg",
     "static/media/img3.webp": "/web-app/static/media/img3.c07ef7f6eafe10e31162.webp",
     "static/media/img2.jpg": "/web-app/static/media/img2.0e9b5bba4961ab36c436.jpg",
+    "static/media/constructionToy.jpg": "/web-app/static/media/constructionToy.ae982473dc5b7feffe16.jpg",
     "static/media/left-wing-picture.jpg": "/web-app/static/media/left-wing-picture.9badfccbcd94107a340c.jpg",
+    "static/media/babyTeethToy.jpg": "/web-app/static/media/babyTeethToy.05ae1c4586f005563b07.jpg",
+    "static/media/cyclingJersey.jpg": "/web-app/static/media/cyclingJersey.306db0c9236ec780dee8.jpg",
+    "static/media/woodPuzzle.jpg": "/web-app/static/media/woodPuzzle.d70be4a8ac443473a5eb.jpg",
     "static/media/img1.jpg": "/web-app/static/media/img1.5645ee1bf1548e2aa8eb.jpg",
+    "static/media/cowBoyHat.jpg": "/web-app/static/media/cowBoyHat.3acb4f32d0c5582dfd69.jpg",
+    "static/media/electricStove.jpg": "/web-app/static/media/electricStove.e4219362bafccba68fef.jpg",
+    "static/media/gymnasticMat.jpg": "/web-app/static/media/gymnasticMat.95707e106108d7c51339.jpg",
+    "static/media/securityCamera.jpg": "/web-app/static/media/securityCamera.75ea9e114449abc7e1bf.jpg",
+    "static/media/cyclingHelmet.jpg": "/web-app/static/media/cyclingHelmet.0e88946b638df627128e.jpg",
+    "static/media/electricCup.jpg": "/web-app/static/media/electricCup.e1f83249b604bbf068ad.jpg",
+    "static/media/sportGlasses.jpg": "/web-app/static/media/sportGlasses.9ed7730170b8be213876.jpg",
+    "static/media/pressureCleaner.jpg": "/web-app/static/media/pressureCleaner.95ce0c92c4c8c4ab682b.jpg",
+    "static/media/siliconWristBand.jpg": "/web-app/static/media/siliconWristBand.66129aa8dc81ed2f559b.jpg",
     "static/media/product1.jfif": "/web-app/static/media/product1.6d3088f2270e82cd5bd5.jfif",
     "index.html": "/web-app/index.html",
     "static/media/desktop.ini": "/web-app/static/media/desktop.65a1e0669db5c91f4944.ini",
-    "main.4894a1f5.css.map": "/web-app/static/css/main.4894a1f5.css.map",
-    "main.f0bebd76.js.map": "/web-app/static/js/main.f0bebd76.js.map",
+    "main.30373f0d.css.map": "/web-app/static/css/main.30373f0d.css.map",
+    "main.fac21e50.js.map": "/web-app/static/js/main.fac21e50.js.map",
     "787.c6006e9a.chunk.js.map": "/web-app/static/js/787.c6006e9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4894a1f5.css",
-    "static/js/main.f0bebd76.js"
+    "static/css/main.30373f0d.css",
+    "static/js/main.fac21e50.js"
   ]
 }
