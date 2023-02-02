@@ -171,6 +171,8 @@ a[type="icon"]:hover .svg-icon path{
 }
 .wish-cart{
   display: none;
+  background-color: rgb(74, 43, 87);
+  opacity: 0.7;
   /* border: 2px solid black; */
 }
 .image-btn{
@@ -226,7 +228,7 @@ a[type="icon"]:hover .svg-icon path{
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 0px;
   margin-left: 1.3rem;
-  font-size: larger;
+  font-size: large;
   color: rgba(var(--bs-primary-rgb),var(--bs-bg-opacity));
 }
 .product-title:hover{
@@ -351,7 +353,7 @@ a[type= "product"]{
   font-family: 'Times New Roman', Times, serif;
 }
 .border{
-  border: 2px solid black !important;
+  border: 1px solid black !important;
 }
 .credentials-container{
 background-color: #eeeeee;

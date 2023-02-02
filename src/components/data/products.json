@@ -1,86 +1,125 @@
 [
     {
         "id":"1",
-        "image":"./images/product1.jfif",
-        "title":"Trees",
-        "price":"11.12",
-        "Category":"Electronics"
+        "image":"./images/securityCamera.jpg",
+        "title":"Security Camera",
+        "price":"49.99",
+        "Category":"Electronics",
+        "Sale":"Normal"
     },
     {
         "id":"2",
-        "image":"./images/left-wing-picture.jpg",
-        "title":"wood",
-        "price":"17.12",
-        "Category":"Home Appliance"
+        "image":"./images/pressureCleaner.jpg",
+        "title":"Pressure Cleaner",
+        "price":"49.99",
+        "Category":"Home Appliance",
+        "Sale":"Normal"
     },
     {
         "id":"3",
-        "image":"./images/img3.jpg",
-        "title":"road",
-        "price":"116.12",
-        "Category":"Toys"
+        "image":"./images/woodPuzzle.jpg",
+        "title":"Wood Puzzle",
+        "price":"9.99",
+        "Category":"Toys",
+        "Sale":"Normal"
     },
     {
         "id":"4",
-        "image":"./images/img2.jpg",
-        "title":"river2",
-        "price":"12.12",
-        "Category":"Accessories"
+        "image":"./images/cowBoyHat.jpg",
+        "title":"Cowboy Hat",
+        "price":"19.99",
+        "Category":"Accessories",
+        "Sale":"Normal"
     },
     {
         "id":"5",
-        "image":"./images/img4.jpg",
-        "title":"river4",
-        "price":"12.12",
-        "Category":"Home Appliance"
+        "image":"./images/electricStove.jpg",
+        "title":"Electric Stove",
+        "price":"49.99",
+        "Category":"Home Appliance",
+        "Sale":"Normal"
     }
     ,
     {
         "id":"7",
-        "image":"./images/img4.jpg",
-        "title":"river6",
-        "price":"12.12",
-        "Category":"Accessories"
+        "image":"./images/siliconWristBand.jpg",
+        "title":"Colorfull Wrist Band",
+        "price":"5.99",
+        "Category":"Accessories",
+        "Sale":"Normal"
     }
     ,
     {
         "id":"8",
-        "image":"./images/img4.jpg",
-        "title":"river8",
-        "price":"12.12",
-        "Category":"Accessories"
+        "image":"./images/sportGlasses.jpg",
+        "title":"Sport Glasses",
+        "price":"19.99",
+        "Category":"Accessories",
+        "Sale":"Normal"
     }
     ,
     {
         "id":"9",
-        "image":"./images/img4.jpg",
-        "title":"river10",
-        "price":"12.12",
-        "Category":"Accessories"
+        "image":"./images/leatherWallet.jpg",
+        "title":"Leather Wallet",
+        "price":"24.99",
+        "Category":"Accessories",
+        "Sale":"Normal"
     }
     ,
     {
         "id":"10",
-        "image":"./images/img4.jpg",
-        "title":"river15",
-        "price":"12.12",
-        "Category":"Home Appliance"
+        "image":"./images/electricCup.jpg",
+        "title":"Electric Cup",
+        "price":"9.99",
+        "Category":"Home Appliance",
+        "Sale":"Normal"
     }
     ,
     {
         "id":"11",
-        "image":"./images/img4.jpg",
-        "title":"river21",
-        "price":"12.12",
-        "Category":"Toys"
+        "image":"./images/constructionToy.jpg",
+        "title":"Construction Toy",
+        "price":"14.99",
+        "Category":"Toys",
+        "Sale":"Normal"
+        
     }
     ,
     {
         "id":"12",
-        "image":"./images/img4.jpg",
-        "title":"river45",
-        "price":"12.12",
-        "Category":"Toys"
+        "image":"./images/babyTeethToy.jpg",
+        "title":"Animal Blocks",
+        "price":"9.99",
+        "Category":"Toys",
+        "Sale":"Normal"
+    }
+    ,
+    {
+        "id":"13",
+        "image":"./images/cyclingHelmet.jpg",
+        "title":"Cycling Helmet",
+        "price":"19.99",
+        "Category":"nill",
+        "Sale":"Hot"
+    }
+    ,
+    {
+        "id":"14",
+        "image":"./images/gymnasticMat.jpg",
+        "title":"Gymnastic Matt",
+        "price":"99.99",
+        "Category":"nill",
+        "Sale":"Hot"
+    }
+    ,
+    {
+        "id":"15",
+        "image":"./images/cyclingJersey.jpg",
+        "title":"Cycling Jersey",
+        "price":"14.99",
+        "Category":"nill",
+        "Sale":"Hot"
     }
     
 ]

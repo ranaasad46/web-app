@@ -28,10 +28,10 @@ export const CartItem=({ id, quantity }) =>{
           )}
         </div>
         <div className="text-muted" style={{ fontSize: ".75rem" }}>
-          {formatCurrency(item.price)}
+          {item.Sale !=="Hot" ?formatCurrency(item.price):formatCurrency(item.price*0.8)}
         </div>
       </div>
-      <div> {formatCurrency(item.price * quantity)}</div>
+      <div> {item.Sale !=="Hot" ?formatCurrency(item.price*quantity):formatCurrency((item.price*0.8)*quantity)}</div>
       <Button
         variant="outline-danger"
         size="sm"

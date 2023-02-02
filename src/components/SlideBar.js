@@ -4,7 +4,7 @@ import img2 from './images/img3.webp'
 import img3 from './images/img2.webp'
 function IndividualIntervalsExample() {
   return (
-    <Carousel style={{marginTop:"110px",width:"100%",zIndex : "0"}}>
+    <Carousel style={{marginTop:"115px",width:"auto",zIndex : "0"}}>
       <Carousel.Item interval={3000}>
       
         <img

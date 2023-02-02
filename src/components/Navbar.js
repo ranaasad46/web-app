@@ -145,22 +145,22 @@ export default function Navbar(props) {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
-                  <Link className="nav-link" to="/Category" onClick={()=>{handleClick("Electronics");props.selectedCategory("Electronics");window.scrollTo(0,280)}} >
+                  <Link className="nav-link" to="/Category" onClick={()=>{handleClick("Electronics");props.selectedCategory("Electronics");window.scrollTo(0,350)}} >
                     Electronics
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/Category" onClick={()=>{handleClick("Toys");props.selectedCategory("Toys");window.scrollTo(0,280)}}>
+                  <Link className="nav-link" to="/Category" onClick={()=>{handleClick("Toys");props.selectedCategory("Toys");window.scrollTo(0,350)}}>
                     Toys
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/Category" onClick={()=>{handleClick("Home Appliance");props.selectedCategory("Home Appliance");window.scrollTo(0,280)}}>
+                  <Link className="nav-link" to="/Category" onClick={()=>{handleClick("Home Appliance");props.selectedCategory("Home Appliance");window.scrollTo(0,350)}}>
                   Home Appliance
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/Category" onClick={()=>{handleClick("Accessories");props.selectedCategory("Accessories");window.scrollTo(0,280)}}>
+                  <Link className="nav-link" to="/Category" onClick={()=>{handleClick("Accessories");props.selectedCategory("Accessories");window.scrollTo(0,350)}}>
                   Accessories
                   </Link>
                 </li>

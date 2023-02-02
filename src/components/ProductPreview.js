@@ -29,7 +29,7 @@ export default function ProductPreview(props) {
 
         <h4 className='font-family' >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi distinctio dignissimos nisi molestiae exercitationem ab ducimus iste quae quo. Reiciendis labore asperiores tenetur, unde quam dolorum consectetur nostrum doloribus beatae.
         </h4>
-        <h3 className='font-family' style={{color:"green"}}><strong>{formatCurrency(product.price)}</strong></h3>
+        <h3 className='font-family' style={{color:"green"}}><strong>{product.Sale !== "Hot" ?formatCurrency(product.price):formatCurrency(product.price*.80)}</strong></h3>
         <div style={{marginTop:"15px"}}>
         <span className="fa fa-star" style={{color:"orange",width:"15px"}}></span>
         <span className="fa fa-star" style={{color:"orange",width:"15px"}}></span>
