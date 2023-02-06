@@ -38,12 +38,12 @@ export default function Footer() {
           <div
             className="address"
             style={{ fontFamily: "Times new Roman", fontSize: "Large" }}
-          >
-            <h2>
-              <strong>Logo Here</strong>
-            </h2>
+          ><div style={{marginBottom:"-3rem",marginTop:"-2rem",width:"12rem",height:"12rem"}}>
+            <img src={require(`${"./images/Lone-S-Traders.png"}`)} style={{width:"100%",height:"100%"}} alt="Logo" />
+          </div>
             <strong>Address:</strong>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            539 W.Commerce Street #6566, Dallas ,TX 75208
+            <p className="mt-2"><strong>Phone no.</strong>+1 972 928 3515</p>
             <div className="bottom mx-2">
               <div className="mx-2">
                 <a href="/">

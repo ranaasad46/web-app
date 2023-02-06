@@ -4,7 +4,7 @@ import img2 from './images/img3.webp'
 import img3 from './images/img2.webp'
 function IndividualIntervalsExample() {
   return (
-    <Carousel style={{marginTop:"115px",width:"auto",zIndex : "0"}}>
+    <Carousel style={{marginTop:"112px",width:"auto",zIndex : "0"}}>
       <Carousel.Item interval={3000}>
       
         <img
@@ -15,7 +15,7 @@ function IndividualIntervalsExample() {
         />
         <Carousel.Caption>
           <h1 className='font-family'>Electronics</h1>
-          <h3 className='font-family'>Nulla vitae elit libero, a pharetra augue mollis interdum.</h3>
+          
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000}>
@@ -27,7 +27,7 @@ function IndividualIntervalsExample() {
         />
         <Carousel.Caption>
           <h1 className='font-family'>Toys</h1>
-          <h3 className='font-family'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+          
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000}>
@@ -39,9 +39,7 @@ function IndividualIntervalsExample() {
         />
         <Carousel.Caption>
           <h1 className='font-family'>Home Appliance</h1>
-          <h3 className='font-family'>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </h3>
+          
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

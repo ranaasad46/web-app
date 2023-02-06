@@ -5,7 +5,9 @@
         "title":"Security Camera",
         "price":"49.99",
         "Category":"Electronics",
-        "Sale":"Normal"
+        "Sale":"Normal",
+        "Description":"Security camera offers crisp 1080p HD video, a sturdy design and motion alerts to keep an eye on the things that matter most."
+
     },
     {
         "id":"2",
@@ -13,7 +15,9 @@
         "title":"Pressure Cleaner",
         "price":"49.99",
         "Category":"Home Appliance",
-        "Sale":"Normal"
+        "Sale":"Normal",
+        "Description":"Please use with care to avoid steam scalding your hand. Do not turn the machine over or tilt it more than 45 degree when the machine is working. Do not add too much water, otherwise it will affect the generation of steam or cause insufficient steam pressure."
+
     },
     {
         "id":"3",
@@ -21,7 +25,8 @@
         "title":"Wood Puzzle",
         "price":"9.99",
         "Category":"Toys",
-        "Sale":"Normal"
+        "Sale":"Normal",
+        "Description":"Develop children’s intelligence, cognition of geometric figure, color discrimination ability, flexibility of children’s practical ability."
     },
     {
         "id":"4",
@@ -29,7 +34,8 @@
         "title":"Cowboy Hat",
         "price":"19.99",
         "Category":"Accessories",
-        "Sale":"Normal"
+        "Sale":"Normal",
+        "Description":" These hats are designed to provide protection from the sun and the elements while also adding a touch of style and personality to any outfit. Whether you're a seasoned cowboy or just looking for a fashionable accessory."
     },
     {
         "id":"5",
@@ -37,7 +43,8 @@
         "title":"Electric Stove",
         "price":"49.99",
         "Category":"Home Appliance",
-        "Sale":"Normal"
+        "Sale":"Normal",
+        "Description":"Repeated take-off temperature control, temperature control at will."
     }
     ,
     {
@@ -46,7 +53,8 @@
         "title":"Colorfull Wrist Band",
         "price":"5.99",
         "Category":"Accessories",
-        "Sale":"Normal"
+        "Sale":"Normal",
+        "Description":"A colorful wristband is a fun and trendy accessory that can add a pop of color and personality to any outfit. Made from durable material, these bands come in a wide range of colors."
     }
     ,
     {
@@ -55,7 +63,8 @@
         "title":"Sport Glasses",
         "price":"19.99",
         "Category":"Accessories",
-        "Sale":"Normal"
+        "Sale":"Normal",
+        "Description":"Sports glasses are specialized eyewear designed for use during physical activities and athletic pursuits. They feature lenses that are durable, impact-resistant and optimized for various conditions such as bright light, glare, or low-light."
     }
     ,
     {
@@ -64,7 +73,8 @@
         "title":"Leather Wallet",
         "price":"24.99",
         "Category":"Accessories",
-        "Sale":"Normal"
+        "Sale":"Normal",
+        "Description":"A leather wallet is a practical and stylish accessory that is both functional and fashionable. Made from high-quality leather, these wallets are designed to hold all of your essentials, including cash, cards, and IDs."
     }
     ,
     {
@@ -73,7 +83,8 @@
         "title":"Electric Cup",
         "price":"9.99",
         "Category":"Home Appliance",
-        "Sale":"Normal"
+        "Sale":"Normal",
+        "Description":"Pour the drink into the heating cup and cover the top. Insert the power cord into the socket of the cigarette lighter. The drink in the cup will be kept at 65℃. It can be used as a drinking cup in the car when it is not plugged in."
     }
     ,
     {
@@ -82,7 +93,8 @@
         "title":"Construction Toy",
         "price":"14.99",
         "Category":"Toys",
-        "Sale":"Normal"
+        "Sale":"Normal",
+        "Description":"You need DIY by yourself to build up the toy. Great for kids playing and studying. More Accessories, More Funny!"
         
     }
     ,
@@ -92,7 +104,8 @@
         "title":"Animal Blocks",
         "price":"9.99",
         "Category":"Toys",
-        "Sale":"Normal"
+        "Sale":"Normal",
+        "Description":"Animal Block Toy for kids"
     }
     ,
     {
@@ -101,7 +114,8 @@
         "title":"Cycling Helmet",
         "price":"19.99",
         "Category":"nill",
-        "Sale":"Hot"
+        "Sale":"Hot",
+        "Description":"Removable and washable inner padding in Coolmax material- COOLMAX internal pads(cushioning comfort pad) are used in larger surface in contact with the head for increased comfort. Detachable for hand wash and anti-allergenic. Comfort Liner and Chin Padding keeps a good fit."
     }
     ,
     {
@@ -110,7 +124,8 @@
         "title":"Gymnastic Matt",
         "price":"99.99",
         "Category":"nill",
-        "Sale":"Hot"
+        "Sale":"Hot",
+        "Description":"Perfect for whatever gets you moving: tumbling, gymnastics, aerobics, cheer, dance, and more!"
     }
     ,
     {
@@ -119,7 +134,8 @@
         "title":"Cycling Jersey",
         "price":"14.99",
         "Category":"nill",
-        "Sale":"Hot"
+        "Sale":"Hot",
+        "Description":"Unique design, perfect for cycling riding racing or camping outdoor sports."
     }
     
 ]

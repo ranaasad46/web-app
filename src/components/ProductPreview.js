@@ -21,14 +21,13 @@ export default function ProductPreview(props) {
         <h3 className='font-family'>{product.title}</h3>
       <div className='d-flex' style={{width:"auto", marginBottom:"3rem" }} >
         
-        <img className="img-fluid " src={require(`${product.image}`)}alt="img" style={{height:"30rem",width:"200rem",objectFit:"cover"}}>
+        <img className="img-fluid " src={require(`${product.image}`)}alt="img" style={{objectFit:"scale-down"}}>
         
         </img>
         <div style={{marginLeft:"2rem", width:"auto",height:"auto"}}>
         <div>
 
-        <h4 className='font-family' >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi distinctio dignissimos nisi molestiae exercitationem ab ducimus iste quae quo. Reiciendis labore asperiores tenetur, unde quam dolorum consectetur nostrum doloribus beatae.
-        </h4>
+        <h4 className='font-family' >{product.Description}</h4>
         <h3 className='font-family' style={{color:"green"}}><strong>{product.Sale !== "Hot" ?formatCurrency(product.price):formatCurrency(product.price*.80)}</strong></h3>
         <div style={{marginTop:"15px"}}>
         <span className="fa fa-star" style={{color:"orange",width:"15px"}}></span>

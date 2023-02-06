@@ -33,11 +33,13 @@ export default function Navbar(props) {
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0" style={{height:"2.5rem"}}>
                 <li className="nav-item text-decor">
+                    <div style={{marginTop:"-3rem",width:"9rem",height:"7rem"}}>
                   <Link className="nav-link" type="submit" to="/" onClick={(e)=>{window.scrollTo(0,0);e.stopPropagation();}}>
-                    Logo here
+                    <img src={require(`${"./images/Lone-S-Traders.png"}`)} style={{width:"100%",height:"100%"}} alt="Logo" />
                   </Link>
+                    </div>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" type="submit" to="/AboutUs" onClick={()=>window.scrollTo(0,0)}>
@@ -51,11 +53,11 @@ export default function Navbar(props) {
                 </li>
                 <form className="d-flex" role="search">
                   <input
-                    className="form-control me-2"
+                    className="form-control me-2 mb-2"
                     type="search"
                     placeholder="Search Products,Brands and more"
                     aria-label="Search"
-                    style={{ width: "100%" }}
+                    style={{ width: "100%"}}
                     size="80"
                   />
                   <a href="/" className="btn btn-outline-light" type="icon">
